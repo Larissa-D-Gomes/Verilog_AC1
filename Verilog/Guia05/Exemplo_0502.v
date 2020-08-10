@@ -9,7 +9,7 @@ module f5a(output s, input  a, input  b); // definir dado Local
    nand(x,a,a);
    nand(y,b,b);
    nand(s,x,y);
-endmodule // f5 
+endmodule // f5a 
 
 module f5b(output s, input  a, input  b ); // descrever por expressao
    assign s = a|b;
